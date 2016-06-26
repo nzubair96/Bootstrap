@@ -32,6 +32,20 @@ body {
   width: auto;
 }
 
+#About {
+	display: block;
+    position: relative;
+    bottom: 35px;
+    visibility: hidden;
+}
+
+#AboutMe{
+	display: block;
+    position: relative;
+    bottom: 80px;
+    visibility: hidden;
+}
+
 
 /* CUSTOMIZE THE COVER PAGE
 -------------------------------------------------- */
@@ -118,6 +132,7 @@ body {
 	text-align:center;
 	vertical-align:middle;
 	word-wrap:break-word;
+	
 }
 @media (max-width: 768px){
 	.carousel-text {
@@ -159,7 +174,7 @@ body {
 #special{
 	top:27px;
 }
-@media (max-width: 768px){
+@media (max-width: 992px){
 	 #special {
 	top:0px;
 	padding-bottom:10px;
@@ -171,7 +186,7 @@ body {
 ------------------------- */
 
 .featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  margin: 40px 0; /* Space out the Bootstrap <hr> more */
 }
 
 .aboutme {
@@ -186,21 +201,29 @@ body {
 	margin-right:auto;
 	margin-left:auto;
 	text-align:center;
-	vertical-align:middle;
 	word-wrap:break-word;
 }
-@media (max-width: 768px){
+@media (max-width: 992px){
 	.aboutme-text {
 	padding-right:10px;
 	padding-left:10px;
-	padding-top:30px;
 	display:table;
 	margin-right:auto;
 	margin-left:auto;
 	text-align:center;
-	vertical-align:middle;
 	word-wrap:break-word;
 }
+}
+
+.marketing .col-lg-6 {
+	text-align:center;
+}
+@media (max-width: 992px){
+	.marketing .col-lg-6{
+		padding-bottom:15px;
+}
+}
+
 
 /* Thin out the marketing headings */
 .featurette-heading {
